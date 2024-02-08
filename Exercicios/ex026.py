@@ -1,3 +1,2 @@
-frase = str(input('Digite uma frase: '))
-fraseL = frase.lower()
-print('{} --- {} --- {}'.format(fraseL.count('a'), fraseL.find('a'), fraseL.rfind('a')))
+frase = str(input('Digite uma frase: ')).lower().strip()
+print('{} --- {} --- {}'.format(frase.count('a'), frase.find('a') + 1, frase.rfind('a') + 1))

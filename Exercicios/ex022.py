@@ -1,4 +1,4 @@
-nome = input('Digite seu nome completo: ')
+nome = str(input('Digite seu nome completo: '))
 nomeMA = nome.upper()
 nomeMI = nome.lower()
 nomeP = len(nome.split()[0])

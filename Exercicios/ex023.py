@@ -1,9 +1,6 @@
-while True:
-    num = input('Digite um número de 4 dígitos: ')
-    
-    if num.isdigit() and len(num) == 4:
-        break
-    else:
-        print('Número inválido. Por favor, digite exatamente 4 dígitos.')
-
-print('Unidade: {}\nDezena: {}\nCentena: {}\nMilhar: {}'.format(num[0], num[1], num[2], num[3]))
+num = int(input('Digite um número: '))
+u = num // 1 % 10
+d = num // 10 % 10
+c = num // 100 % 10
+m = num // 1000 % 10
+print('Unidade: {}\nDezena: {}\nCentena: {}\nMilhar: {}'.format(u, d, c, m))
