@@ -1,3 +1,5 @@
+# Tabuada v1.0
+
 n = int(input('Digite um numero: '))
 x1 = n * 1
 x2 = n * 2
