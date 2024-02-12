@@ -1,3 +1,5 @@
+# Aprovando emprestimos
+
 valor = float(input('Qual é o valor da casa desejada ? R$'))
 salario = float(input('Qual é o salario do comprador ? R$'))
 anos = int(input('Em quantos anos o comprador deseja parcelar ? '))
