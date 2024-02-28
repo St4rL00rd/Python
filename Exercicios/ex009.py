@@ -11,4 +11,4 @@ x7 = n * 7
 x8 = n * 8
 x9 = n * 9
 x10 = n * 10
-print('A tabuada do {} é:\n {} x 1  = {}\n {} x 2  = {}\n {} x 3  = {}\n {} x 4  = {}\n {} x 5  = {}\n {} x 6  = {}\n {} x 7  = {}\n {} x 8  = {}\n {} x 9  = {}\n {} x 10 = {}'.format(n,n,x1,n,x2,n,x3,n,x4,n,x5,n,x6,n,x7,n,x8,n,x9,n,x10))
+print(f'A tabuada do {n} é:\n {n} x 1  = {x1}\n {n} x 2  = {x2}\n {n} x 3  = {x3}\n {n} x 4  = {x4}\n {n} x 5  = {x5}\n {n} x 6  = {x6}\n {n} x 7  = {x7}\n {n} x 8  = {x8}\n {n} x 9  = {x9}\n {n} x 10 = {x10}')
